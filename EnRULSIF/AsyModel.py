@@ -5,8 +5,8 @@ import csv
 from Classification import Classification
 import time
 from Ensemble import Ensemble
-from changepy import pelt
-from changepy.costs import normal_var, normal_mean, normal_meanvar, exponential, poisson
+from pelt import pelt
+from cost import normal_mean
 
 class Update(object):
 
