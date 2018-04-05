@@ -5,8 +5,8 @@ import csv
 from Classification import Classification
 import time
 from Ensemble import Ensemble
-from pelt import pelt
-from cost import normal_mean
+from pelts import pelt
+from costs import normal_mean
 
 class Update(object):
 
